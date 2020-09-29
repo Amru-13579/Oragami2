@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(204, 96, 8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color : goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: first-baseline;
+}
+
+ul li::before { /* \2022 is the CSS Code/unicode for a disc */ content: "\2022"; color: green; display: inline-block; width: 1em; margin-left: -0.9em; font-weight: bold; font-size:1.1rem; }
